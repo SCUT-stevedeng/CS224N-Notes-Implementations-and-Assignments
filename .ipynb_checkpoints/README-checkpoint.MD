@@ -1,0 +1,15 @@
+# CS224n: Natural Language Processing with Deep Learning - Study Notes
+
+Personal study notes and code implementations for Stanford's CS224n: Natural Language Processing with Deep Learning course.
+
+## 📚 Course Information
+- **Course**: CS224n: Natural Language Processing with Deep Learning
+- **University**: Stanford University
+- **Instructors**: Christopher Manning
+- **Course Website**: https://web.stanford.edu/class/cs224n/
+- **Academic Year**: Winter 2024
+
+
+### Core Lecture Topics
+- [ ] Lecture 1: Introduction and Word Vectors
+- [ ] Lecture 2: Neural Classifiers
