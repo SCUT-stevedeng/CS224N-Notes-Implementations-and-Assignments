@@ -13,3 +13,5 @@ Personal study notes and code implementations for Stanford's CS224n: Natural Lan
 ### Core Lecture Topics
 - [ ] Lecture 1: Introduction and Word Vectors
 - [ ] Lecture 2: Neural Classifiers
+- [ ] Lecture 3: Backprop and Neural Networks
+- [ ] Lecture 4: Dependency Parsing
