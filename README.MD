@@ -15,3 +15,4 @@ Personal study notes and code implementations for Stanford's CS224n: Natural Lan
 - [ ] Lecture 2: Neural Classifiers
 - [ ] Lecture 3: Backprop and Neural Networks
 - [ ] Lecture 4: Dependency Parsing
+- [ ] Lecture 5&6: Recurrent Neural Networks & Simple and LSTM RNNs
