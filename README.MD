@@ -17,4 +17,4 @@ Personal study notes and code implementations for Stanford's CS224n: Natural Lan
 - [ ] Lecture 4: Dependency Parsing
 - [ ] Lecture 5&6: Recurrent Neural Networks & Simple and LSTM RNNs
 - [ ] Lecture 7: Translation, Seq2Seq, Attention
-- [ ] Final Project & Undergraduate Thesis Proposal: Modeling Knowledge Transfer with DAPT and PEFT (In Progress)
+- [ ] **Final Project & Undergraduate Thesis Proposal: Modeling Knowledge Transfer with DAPT and PEFT (In Progress)**
