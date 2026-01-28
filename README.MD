@@ -11,10 +11,14 @@ Personal study notes and code implementations for Stanford's CS224n: Natural Lan
 
 
 ### Core Lecture Topics
-- [ ] Lecture 1: Introduction and Word Vectors
-- [ ] Lecture 2: Neural Classifiers
-- [ ] Lecture 3: Backprop and Neural Networks
+- [✓] Lecture 1: Introduction and Word Vectors
+- [✓] Lecture 2: Neural Classifiers
+- [✓] Lecture 3: Backprop and Neural Networks
 - [ ] Lecture 4: Dependency Parsing
-- [ ] Lecture 5&6: Recurrent Neural Networks & Simple and LSTM RNNs
-- [ ] Lecture 7: Translation, Seq2Seq, Attention
-- [ ] Final Project & Undergraduate Thesis Proposal: Modeling Knowledge Transfer with DAPT and PEFT (In Progress)
+- [✓] Lecture 5&6: Recurrent Neural Networks & Simple and LSTM RNNs
+- [✓] Lecture 7: Translation, Seq2Seq, Attention
+- [ ] Lecture 8: Self Attention and Transformers
+- [ ] **Final Project & Undergraduate Thesis Proposal: A Study on Undergraduate Knowledge Transfer Based on DACP+SFT (In Progress)**
+
+### Selected Projects
+![A Neural Machine Translator completed in Lecture 7](./Translation,Seq2Seq,Attention/student/demo.jpg)

@@ -1,13 +1,13 @@
-# Final Project / Undergraduate Thesis Proposal: Modeling Knowledge Transfer with DAPT and PEFT
+# Final Project / Undergraduate Thesis Proposal: A Study on Undergraduate Knowledge Transfer Based on DACP+SFT
 
 ## Abstract
 (This is a research proposal for my undergraduate thesis, also serving as the final project for my self-directed study of CS224n.)
-This project aims to investigate the capacity for knowledge transfer in Large Language Models by simulating cross-disciplinary learning scenarios. I propose to employ continued pretraining (DAPT) and parameter-efficient fine-tuning (PEFT) techniques like LoRA and its variants(ReLoRA, FlyLoRA, etc.) on a RoBERTa model, using two related academic sub-disciplines as testbeds.
+This project aims to investigate the capacity for knowledge transfer in Large Language Models by simulating cross-disciplinary learning scenarios. I propose to employ domain adaptive continued pretraining (DACP) and parameter-efficient fine-tuning (PEFT) techniques like LoRA and its variants(ReLoRA, FlyLoRA, etc.) on a RoBERTa model, using two related academic sub-disciplines as testbeds.
 
 
 ## 1. Proposed Methodology
 - **Base Model**: RoBERTa.
-- **Domain-Adaptive Pretraining (DAPT)**: On crawled corpora from two sub-disciplines.
+- **Domain-Adaptive Continued Pretraining (DACP)**: On crawled corpora from two sub-disciplines.
 - **Parameter-Efficient Fine-Tuning (PEFT)**: Using LoRA or its variants to efficiently adapt the model for a specific task (e.g., correctness judgment on exam-like questions).
 - **Evaluation**: Analyze performance improvement on the target domain after training on the source domain, and probe the model's internal representations.
 
