@@ -1,57 +1,85 @@
-# Final Project / Undergraduate Thesis Proposal: A Study on Undergraduate Knowledge Transfer Based on DACP+SFT
+# Final Project / Undergraduate Thesis Proposal: A Study on Undergraduate Major Similarity and Transferability Based on DACP+SFT
 
 ## Abstract
-(This is a research proposal for my undergraduate thesis, also serving as the final project for my self-directed study of CS224n.)
-This project aims to investigate the capacity for knowledge transfer in Large Language Models by simulating cross-disciplinary learning scenarios. I propose to employ domain adaptive continued pretraining (DACP) and parameter-efficient fine-tuning (PEFT) techniques like LoRA and its variants(ReLoRA, FlyLoRA, etc.) on a RoBERTa model, using two related academic sub-disciplines as testbeds.
+This paper proposes a quantitative analysis method for measuring similarity and knowledge transferability between undergraduate majors based on a masked pre-trained language model. Using RoBERTa as the base model, the method takes E-commerce and Logistics Engineering as examples. Domain-adaptive continual pre-training is conducted separately on the textbook corpus of the two related undergraduate majors, simulating from a computational perspective the outcomes of students’knowledge internalization within a specific disciplinary system. On this basis, two domain-specific major discrimination models are trained by supervised fine-tuning on corresponding true/false question datasets (a binary classification task) for each major......
 
 
 ## 1. Proposed Methodology
 - **Base Model**: RoBERTa.
 - **Domain-Adaptive Continued Pretraining (DACP)**: On crawled corpora from two sub-disciplines.
-- **Parameter-Efficient Fine-Tuning (PEFT)**: Using LoRA or its variants to efficiently adapt the model for a specific task (e.g., correctness judgment on exam-like questions).
-- **Evaluation**: Analyze performance improvement on the target domain after training on the source domain, and probe the model's internal representations.
+- **Parameter-Efficient Fine-Tuning (PEFT)**: Using LoRA or its variants to efficiently adapt the model for a specific task, meanwhile as a analogy to human brains adapting to tasks (e.g., correctness judgment on exam-like questions).
+......
 
-## 2. Expected Outcomes & Relation to CS224n
-- I expect to demonstrate a measurable knowledge transfer effect.
+## 2. Relation to CS224n
 - This project directly builds upon the concepts learned in CS224n, including but not limited to:
     - **Word Vector Representations** (Lecture 1)
     - **Neural Network Training** (Lectures 2 & 3)
     - **Model Efficiency and Adaptation** (related to practical deployment considerations discussed throughout the course)
 
 ## 3. Project Timeline
-- [ ] Literature Review (In Progress)
-- [ ] Data Collection (In Progress)
+- [✅] Literature Review
+- [✅] Data Collection
+- [✅] Data Preprocessing
 - [ ] Baseline Model Implementation (Planned)
 - [ ] ... (Other phases)
 
 ## 4. References
-[1] Petroni F, Rocktäschel T, Riedel S, et al. Language models as knowledge bases?[C]//Proceedings of the 2019 conference on empirical methods in natural language processing and the 9th international joint conference on natural language processing (EMNLP-IJCNLP). 2019: 2463-2473.
-
-[2] Zhang N, Li Q, Wu S X, et al. A Novel Influence Analysis-Based University Major Similarity Study[J]. Education Sciences, 2024, 14(3): 337.
-
-[3] Kornblith S, Norouzi M, Lee H, et al. Similarity of neural network representations revisited[C]//International conference on machine learning. PMlR, 2019: 3519-3529.
-
-[4] Sung C, Dhamecha T, Saha S, et al. Pre-training BERT on domain resources for short answer grading[C]//Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP). 2019: 6071-6075.
-
-[5] Ke Z, Shao Y, Lin H, et al. Continual pre-training of language models[J]. arXiv preprint arXiv:2302.03241, 2023.
-
-[6] Xie Y, Aggarwal K, Ahmad A. Efficient continual pre-training for building domain specific large language models[C]//Findings of the Association for Computational Linguistics ACL 2024. 2024: 10184-10201.
-
-[7] Pan S J, Yang Q. A survey on transfer learning[J]. IEEE Transactions on knowledge and data engineering, 2009, 22(10): 1345-1359.
-
-[8] Ruder S, Peters M E, Swayamdipta S, et al. Transfer learning in natural language processing[C]//Proceedings of the 2019 conference of the North American chapter of the association for computational linguistics: Tutorials. 2019: 15-18.
-
-[9] Gururangan S, Marasović A, Swayamdipta S, et al. Don't stop pretraining: Adapt language models to domains and tasks[J]. arXiv preprint arXiv:2004.10964, 2020.
-
-[10] Liu Y, Ott M, Goyal N, et al. Roberta: A robustly optimized bert pretraining approach[J]. arXiv preprint arXiv:1907.11692, 2019.
-
-[11] Wei J, Zou K. EDA: Easy data augmentation techniques for boosting performance on text classification tasks[J]. arXiv preprint arXiv:1901.11196, 2019.
-
-[12] Howard J, Ruder S. Universal language model fine-tuning for text classification[J]. arXiv preprint arXiv:1801.06146, 2018.
-
-[13] Sun C, Qiu X, Xu Y, et al. How to fine-tune bert for text classification?[C]//China national conference on Chinese computational linguistics. Cham: Springer International Publishing, 2019: 194-206.
-
-[14] Hu E J, Shen Y, Wallis P, et al. Lora: Low-rank adaptation of large language models[J]. ICLR, 2022, 1(2): 3.
-
-[15] Bender E M, Koller A. Climbing towards NLU: On meaning, form, and understanding in the age of data[C]//Proceedings of the 58th annual meeting of the association for computational linguistics. 2020: 5185-5198.
+[1] VASWANI A, SHAZEER N, PARMAR N, et al. Attention Is All You Need[EB/OL].
+2023. https://arxiv.org/abs/1706.03762. arXiv: 1706.03762 [cs.CL].
+[2] DEVLIN J, CHANG M W, LEE K, et al. BERT: Pre-training of Deep Bidirectional Trans-
+formers for Language Understanding[EB/OL]. 2019. https://arxiv.org/abs/1810.04805.
+arXiv: 1810.04805 [cs.CL].
+[3] LIU Y, OTT M, GOYAL N, et al. RoBERTa: A Robustly Optimized BERT Pretraining
+Approach[EB/OL]. 2019. https://arxiv.org/abs/1907.11692. arXiv: 1907.11692 [cs.CL].
+[4] PAN S J, YANG Q. A survey on transfer learning[J]. IEEE Transactions on knowledge
+and data engineering, 2009, 22(10): 1345-1359.
+[5] GURURANGAN S, MARASOVIĆ A, SWAYAMDIPTA S, et al. Don’t stop pretraining:
+Adapt language models to domains and tasks[C]//Proceedings of the 58th annual meeting
+of the association for computational linguistics. 2020: 8342-8360.
+[6] RADFORD A, NARASIMHAN K, SALIMANS T, et al. Improving language under-
+standing by generative pre-training[J]. 2018.
+[7] OUYANG L, WU J, JIANG X, et al. Training language models to follow instructions
+with human feedback[J]. Advances in neural information processing systems, 2022, 35:
+27730-27744.
+[8] 李航. 统计学习方法[J]. 2019.
+[9] FIRTH J. A synopsis of linguistic theory, 1930-1955[J]. Studies in linguistic analysis,
+1957: 10-32.
+[10] MIKOLOV T, CHEN K, CORRADO G, et al. Efficient estimation of word representa-
+tions in vector space[J]. arXiv preprint arXiv:1301.3781, 2013.
+[11] SINHA K, JIA R, HUPKES D, et al. Masked language modeling and the distributional
+hypothesis: Order word matters pre-training for little[C]//Proceedings of the 2021 con-
+ference on empirical methods in natural language processing. 2021: 2888-2913.
+[12] DENG J, DONG W, SOCHER R, et al. Imagenet: A large-scale hierarchical image
+database[C]//2009 IEEE conference on computer vision and pattern recognition. 2009:
+248-255.
+[13] KRIZHEVSKY A, SUTSKEVER I, HINTON G E. Imagenet classification with deep
+convolutional neural networks[J]. Advances in neural information processing systems,
+2012, 25.
+[14] ERHAN D, COURVILLE A, BENGIO Y, et al. Why does unsupervised pre-training help
+deep learning?[C]//Proceedings of the thirteenth international conference on artificial in-
+telligence and statistics. 2010: 201-208.
+[15] LAMPINEN A K, GANGULI S. An analytic theory of generalization dynamics and
+transfer learning in deep linear networks[J]. arXiv preprint arXiv:1809.10374, 2018.
+[16] KAPLAN J, MCCANDLISH S, HENIGHAN T, et al. Scaling laws for neural language
+models[J]. arXiv preprint arXiv:2001.08361, 2020.
+[17] HOFFMANN J, BORGEAUD S, MENSCH A, et al. Training compute-optimal large
+language models[J]. arXiv preprint arXiv:2203.15556, 2022, 10.
+[18] SUN C, QIU X, XU Y, et al. How to fine-tune bert for text classification?[C]//China
+national conference on Chinese computational linguistics. 2019: 194-206.
+[19] LEE J, YOON W, KIM S, et al. BioBERT: a pre-trained biomedical language represen-
+tation model for biomedical text mining[J]. Bioinformatics, 2020, 36(4): 1234-1240.
+[20] LibreTexts. LibreTexts[EB/OL]. 2026. https://libretexts.org/.
+[21] Docling Team. Docling[CP/OL]. https://github.com/docling-project/docling.
+[22] CHEN D, HUANG Y, PAN X, et al. Data-Juicer 2.0: Cloud-Scale Adaptive Data Pro-
+cessing for and with Foundation Models[J]. NeurIPS, 2025.
+[23] HU E J, SHEN Y, WALLIS P, et al. LoRA: Low-Rank Adaptation of Large Language
+Models[EB/OL]. 2021. https://arxiv.org/abs/2106.09685. arXiv: 2106.09685 [cs.CL].
+[24] Hugging Face. Adapters on the Hugging Face Hub[Z]. https://huggingface.co/docs/hub
+/adapters. Accessed: 2026-04-22. 2024.
+[25] MILL R D, COLE M W. Dynamically Shifting from Compositional to Conjunctive
+Brain Representations Supports Cognitive Task Learning[J/OL]. Nature Communica-
+tions, 2025, 16: 10084. https://doi.org/10.1038/s41467- 025- 65041- 2. DOI: 10.103
+8/s41467-025-65041-2.
+[26] FLESCH T, JUECHEMS K, DUMBALSKA T, et al. Orthogonal representations for
+robust context-dependent task performance in brains and neural networks[J/OL]. Neuron,2022, 110(7): 1258-1270.e11. https://www.sciencedirect.com/science/article/pii/S0896627322000058. DOI: https://doi.org/10.1016/j.neuron.2022.01.005
 ...
