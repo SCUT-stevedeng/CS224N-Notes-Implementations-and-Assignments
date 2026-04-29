@@ -24,76 +24,87 @@ This paper proposes a quantitative analysis method for measuring similarity and 
 - [ ] ... (Other phases)
 
 ## 4. References
-[1] VASWANI A, SHAZEER N, PARMAR N, et al. Attention Is All You Need[EB/OL].
+[1] DAAD. Database on Admission Requirements[EB/OL]. German Academic Exchange
+Service. (2024-12-20). https://www.daad.de/en/studying-in-germany/requirements/adm
+ission-database/.
 
-2023. https://arxiv.org/abs/1706.03762. arXiv: 1706.03762 [cs.CL].
-[2] DEVLIN J, CHANG M W, LEE K, et al. BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding[EB/OL]. 2019. https://arxiv.org/abs/1810.04805.arXiv: 1810.04805 [cs.CL].
+[2] European Commission. European Credit Transfer and Accumulation System (ECTS)
+[EB/OL]. European Commission. (2024-12-20) [2026-04-24]. https://education.ec.eu
+ropa.eu/education-levels/higher-education/inclusive-and-connected-higher-education/e
+uropean-credit-transfer-and-accumulation-system.
 
-[3] LIU Y, OTT M, GOYAL N, et al. RoBERTa: A Robustly Optimized BERT Pretraining
+[3] MONTT G. The Causes and Consequences of Field-of-Study Mismatch: An Analysis
+Using PIAAC[R/OL]. OECD Social, Employment and Migration Working Papers 167.
+Paris: OECD Publishing, 2015. https://doi.org/10.1787/5jrxm4dhv9r2-en. DOI: 10.178
+7/5jrxm4dhv9r2-en.
+
+[4] JIANG S, GUO Y. Reasons for college major-job mismatch and labor market outcomes:
+Evidence from China[J/OL]. China Economic Review, 2022, 74: 101822. https://www.s
+ciencedirect.com/science/article/pii/S1043951X22000803. DOI: https://doi.org/10.1016
+/j.chieco.2022.101822.
+
+[5] HEMELT S W, HERSHBEIN B, MARTIN S, et al. College Majors and Skills: Evidence
+from the Universe of Online Job Ads[J/OL]. Labour Economics, 2023, 85: 102429. http
+s://doi.org/10.1016/j.labeco.2023.102429. DOI: 10.1016/j.labeco.2023.102429.
+
+[6] Lightcast. Lightcast Data[EB/OL]. Lightcast. (2024-12-20). https://lightcast.io/products
+/data/overview.
+
+[7] BERĘSEWICZ M, CHERNIAIEV H, MANTAJ A, et al. Text Analysis of Job Offers for
+Mismatch of Educational Characteristics to Labour Market Demands[J/OL]. Quality &
+Quantity, 2024, 58: 1799-1825. eprint: 10.1007/s11135-023-01707-7. DOI: 10.1007/s1
+1135-023-01707-7.
+
+[8] DEVLIN J, CHANG M W, LEE K, et al. BERT: Pre-training of Deep Bidirectional Trans-
+formers for Language Understanding[EB/OL]. 2019. https://arxiv.org/abs/1810.04805.
+arXiv: 1810.04805 [cs.CL].
+
+[9] LIU Y, OTT M, GOYAL N, et al. RoBERTa: A Robustly Optimized BERT Pretraining
 Approach[EB/OL]. 2019. https://arxiv.org/abs/1907.11692. arXiv: 1907.11692 [cs.CL].
 
-[4] PAN S J, YANG Q. A survey on transfer learning[J]. IEEE Transactions on knowledge and data engineering, 2009, 22(10): 1345-1359.
+[10] GURURANGAN S, MARASOVIĆ A, SWAYAMDIPTA S, et al. Don’t stop pretraining:
+Adapt language models to domains and tasks[C]//Proceedings of the 58th annual meeting
+of the association for computational linguistics. 2020: 8342-8360.
 
-[5] GURURANGAN S, MARASOVIĆ A, SWAYAMDIPTA S, et al. Don’t stop pretraining:
-Adapt language models to domains and tasks[C]//Proceedings of the 58th annual meeting of the association for computational linguistics. 2020: 8342-8360.
+[11] VASWANI A, SHAZEER N, PARMAR N, et al. Attention Is All You Need[EB/OL].
+2023. https://arxiv.org/abs/1706.03762. arXiv: 1706.03762 [cs.CL].
 
-[6] RADFORD A, NARASIMHAN K, SALIMANS T, et al. Improving language under-
+[12] PAN S J, YANG Q. A survey on transfer learning[J]. IEEE Transactions on knowledge
+and data engineering, 2009, 22(10): 1345-1359.
+
+[13] RADFORD A, NARASIMHAN K, SALIMANS T, et al. Improving language under-
 standing by generative pre-training[J]. 2018.
 
-[7] OUYANG L, WU J, JIANG X, et al. Training language models to follow instructions
+[14] OUYANG L, WU J, JIANG X, et al. Training language models to follow instructions
 with human feedback[J]. Advances in neural information processing systems, 2022, 35:
 27730-27744.
 
-[8] 李航. 统计学习方法[J]. 2019.
+[15] 李航. 统计学习方法[J]. 2019.
 
-[9] FIRTH J. A synopsis of linguistic theory, 1930-1955[J]. Studies in linguistic analysis,1957: 10-32.
+[16] FIRTH J. A synopsis of linguistic theory, 1930-1955[J]. Studies in linguistic analysis,
+1957: 10-32.
 
-[10] MIKOLOV T, CHEN K, CORRADO G, et al. Efficient estimation of word representa-
+[17] MIKOLOV T, CHEN K, CORRADO G, et al. Efficient estimation of word representa-
 tions in vector space[J]. arXiv preprint arXiv:1301.3781, 2013.
 
-[11] SINHA K, JIA R, HUPKES D, et al. Masked language modeling and the distributional hypothesis: Order word matters pre-training for little[C]//Proceedings of the 2021 conference on empirical methods in natural language processing. 2021: 2888-2913.
+[18] SINHA K, JIA R, HUPKES D, et al. Masked language modeling and the distributional
+hypothesis: Order word matters pre-training for little[C]//Proceedings of the 2021 conference on empirical methods in natural language processing. 2021: 2888-2913.
 
-[12] DENG J, DONG W, SOCHER R, et al. Imagenet: A large-scale hierarchical image
+[19] DENG J, DONG W, SOCHER R, et al. Imagenet: A large-scale hierarchical image
 database[C]//2009 IEEE conference on computer vision and pattern recognition. 2009:
 248-255.
 
-[13] KRIZHEVSKY A, SUTSKEVER I, HINTON G E. Imagenet classification with deep
+[20] KRIZHEVSKY A, SUTSKEVER I, HINTON G E. Imagenet classification with deep
 convolutional neural networks[J]. Advances in neural information processing systems,
 2012, 25.
 
-[14] ERHAN D, COURVILLE A, BENGIO Y, et al. Why does unsupervised pre-training help
+[21] ERHAN D, COURVILLE A, BENGIO Y, et al. Why does unsupervised pre-training help
 deep learning?[C]//Proceedings of the thirteenth international conference on artificial intelligence and statistics. 2010: 201-208.
 
-[15] LAMPINEN A K, GANGULI S. An analytic theory of generalization dynamics and
-transfer learning in deep linear networks[J]. arXiv preprint arXiv:1809.10374, 2018.
-
-[16] KAPLAN J, MCCANDLISH S, HENIGHAN T, et al. Scaling laws for neural language
-models[J]. arXiv preprint arXiv:2001.08361, 2020.
-
-[17] HOFFMANN J, BORGEAUD S, MENSCH A, et al. Training compute-optimal large
-language models[J]. arXiv preprint arXiv:2203.15556, 2022, 10.
-
-[18] SUN C, QIU X, XU Y, et al. How to fine-tune bert for text classification?[C]//China national conference on Chinese computational linguistics. 2019: 194-206.
-
-[19] LEE J, YOON W, KIM S, et al. BioBERT: a pre-trained biomedical language representation model for biomedical text mining[J]. Bioinformatics, 2020, 36(4): 1234-1240.
-
-[20] LibreTexts. LibreTexts[EB/OL]. 2026. https://libretexts.org/.
-
-[21] Docling Team. Docling[CP/OL]. https://github.com/docling-project/docling.
-
-[22] CHEN D, HUANG Y, PAN X, et al. Data-Juicer 2.0: Cloud-Scale Adaptive Data Pro-
-cessing for and with Foundation Models[J]. NeurIPS, 2025.
-
-[23] HU E J, SHEN Y, WALLIS P, et al. LoRA: Low-Rank Adaptation of Large Language
-Models[EB/OL]. 2021. https://arxiv.org/abs/2106.09685. arXiv: 2106.09685 [cs.CL].
-
-[24] Hugging Face. Adapters on the Hugging Face Hub[Z]. https://huggingface.co/docs/hub/adapters. Accessed: 2026-04-22. 2024.
-
-[25] MILL R D, COLE M W. Dynamically Shifting from Compositional to Conjunctive
-Brain Representations Supports Cognitive Task Learning[J/OL]. Nature Communica-
-tions, 2025, 16: 10084. https://doi.org/10.1038/s41467- 025- 65041- 2. DOI: 10.103
-8/s41467-025-65041-2.
-
-[26] FLESCH T, JUECHEMS K, DUMBALSKA T, et al. Orthogonal representations for
-robust context-dependent task performance in brains and neural networks[J/OL]. Neuron,2022, 110(7): 1258-1270.e11. https://www.sciencedirect.com/science/article/pii/S0896627322000058. DOI: https://doi.org/10.1016/j.neuron.2022.01.005
 ...
+
+[49] BENDER E M, KOLLER A. Climbing towards NLU: On Meaning, Form, and Understanding in the Age of Data[C/OL]//JURAFSKY D, CHAI J, SCHLUTER N, et al. Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics.Online: Association for Computational Linguistics, 2020: 5185-5198. https://aclanthology.org/2020.acl-main.463/. DOI: 10.18653/v1/2020.acl-main.463.
+
+[50] HA D, SCHMIDHUBER J. World Models[J/OL]. CoRR, 2018, abs/1803.10122. arXiv:1803.10122. http://arxiv.org/abs/1803.10122.
+
+[51] HAHN M. Theoretical Limitations of Self-Attention in Neural Sequence Models[J/OL].Transactions of the Association for Computational Linguistics, 2020, 8: 156-171. eprint:https://direct.mit.edu/tacl/article-pdf/doi/10.1162/tacl_a_00306/1923102/tacl_a_00306.pdf. https://doi.org/10.1162/tacl_a_00306. DOI: 10.1162/tacl_a_00306.
