@@ -17,8 +17,7 @@ Personal study notes and code implementations for Stanford's CS224n: Natural Lan
 - [ ] Lecture 4: Dependency Parsing
 - [✓] Lecture 5&6: Recurrent Neural Networks & Simple and LSTM RNNs
 - [✓] Lecture 7: Translation, Seq2Seq, Attention
-- [ ] Lecture 8: Self Attention and Transformers
-- [ ] **Final Project & Undergraduate Thesis Proposal: A Study on Undergraduate Knowledge Transfer Based on DACP+SFT (In Progress)**
+- [✓] Lecture 8: Self Attention and Transformers
 
 ### Selected Projects
 ![A Neural Machine Translator completed in Lecture 7](./Translation,Seq2Seq,Attention/student/demo.jpg)
